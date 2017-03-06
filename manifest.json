@@ -1,0 +1,27 @@
+{
+	"manifest_version":2,
+	"name":"店铺搜索助手",
+	"version":"1.0",
+	"description":"2017-02-25",
+	"icons": {
+		"16":"images/icon16.png",
+		"48":"images/icon48.png",
+		"128":"images/icon128.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"19":"images/icon19.png",
+			"38":"images/icon38.png"
+		},
+		"default_title":"淘宝店铺搜索"	    
+		
+	},
+	"background": {
+		"scripts": [
+			"js/background.js"
+		]
+	},
+	"permissions": [
+	"tabs", "http://*/*", "https://*/*"
+	]
+}
